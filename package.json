@@ -1,0 +1,23 @@
+{
+  "name": "db-biblioteca",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "mongoose": "^8.0.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
